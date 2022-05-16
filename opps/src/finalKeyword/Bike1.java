@@ -1,7 +1,7 @@
 package finalKeyword;
 
 class Bike1 {
-final void run()
+void run()
 {
 	System.out.println("Running");
 }
@@ -12,7 +12,7 @@ class Honda extends Bike1{
 	}
 }
 	public static void main(String[] args) {
-		Honda h=new Honda();
+	Bike1 h= new Bike1();
 		h.run();
 
 	}
